@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\wabsite\\Search bar"
+		},
+		{
+			"path": "..\\wabsite"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Search bar"
+	}
+}

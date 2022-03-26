@@ -1,0 +1,297 @@
+/*Tablet Layout CSS*/
+
+@media only screen and (min-width:200px) and (max-width:991px) {
+    .social_area {
+        width: 100%;
+        max-width: 420px;
+        padding-top: 19px;
+        .main_header_area {
+            width: 100%;
+            clear: both;
+            max-width: 740px;
+            margin: 0 auto;
+        }
+    }
+    .social_area ul li {
+        margin-left: 7px;
+    }
+    .main_header_area {
+        max-width: 740px;
+        margin: 0 auto;
+    }
+    .inner_manu {
+        max-width: 740px;
+    }
+    ul ul {
+        background: black;
+    }
+    .inner_manu ul ul {
+        position: absolute;
+        top: 43px;
+        left: 13px;
+        background: #0c1923;
+        z-index: 5;
+        border-bottom: 1px solid white;
+    }
+    .inner_manu ul li {
+        border-bottom: 1px solid white;
+    }
+    .inner_manu ul ul ul {
+        position: absolute;
+        top: 43px;
+        left: 13px;
+        background: #0c1923;
+        z-index: 5;
+        border-bottom: 1px solid white;
+    }
+    #mobile_manu {
+        margin: 0 17px;
+    }
+    .inner_hero h2 {
+        color: #000000;
+        font-size: 49px;
+        line-height: 80px;
+    }
+    .inner_work {
+        padding: 0;
+    }
+    .about_area {
+        width: 31.3%;
+        padding: 1%;
+    }
+    .service_area {
+        width: 31.3%;
+        padding: 1%;
+    }
+    .client_area {
+        width: 31.3%;
+        padding: 1%;
+    }
+    .inner_work h2 {
+        margin: 30px 0 40px 0;
+        font-size: 20px;
+        padding: 0;
+    }
+    .about_area img {
+        margin: 0px;
+    }
+    .service_area .ser_div {
+        margin-bottom: 32px;
+    }
+    .ser_div .num2 {
+        line-height: 1.3em;
+    }
+    .client_area .client1 {
+        margin: 0;
+        padding: 0;
+    }
+    .client h3 {
+        padding-bottom: 10px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        right: 20px;
+        display: block;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        margin-right: 50px;
+        display: block;
+    }
+}
+
+
+/*-----------------------------
+      mobile Layout
+    -----------------------------*/
+
+@media only screen and (min-width:200px) and (max-width:480px) {
+    #mobile_manu {
+        margin: 0 8px;
+    }
+    .mini_menu {
+        width: 100%;
+        margin: 0 auto 8px;
+    }
+    .mini_menu ul {
+        text-align: center;
+    }
+    .mini_menu ul li {
+        margin: 5px;
+    }
+    .mini_menu ul li::after {
+        right: -8px;
+    }
+    .search_area {
+        width: 200px;
+        margin-right: 22%;
+    }
+    .inner_header {
+        margin-top: 14px;
+        padding: 0px;
+    }
+    .logo_area {
+        width: 240px;
+        float: none;
+        margin: 0 auto;
+    }
+    .social_area {
+        padding-top: 8px;
+    }
+    .social_area ul {
+        text-align: center;
+    }
+    .social_area ul li {
+        margin: 0 4px;
+    }
+    #slider_area {
+        margin-top: 15px;
+    }
+    .inner_hero img {}
+    .inner_hero h2 {
+        margin: 0 0 0 5px;
+        font-size: 25px;
+    }
+    .inner_hero p {
+        margin-left: 5px;
+    }
+    .inner_hero a {
+        float: left;
+        margin: 20px 0 10px 5px;
+    }
+    .inner_work h2 {
+        margin: 2px 0 20px 0;
+        font-size: 18px;
+    }
+    .about_area {
+        width: 94%;
+        padding: 3%;
+    }
+    .about_area p {
+        font-size: 14px;
+        margin: 0 0 10px 0;
+    }
+    .about_area a {
+        font-size: 14px;
+        text-align: left;
+    }
+    .service_area {
+        width: 94%;
+        padding: 3%;
+    }
+    .service_area .ser_div {
+        margin-bottom: 20px;
+    }
+    .service_area a {
+        font-size: 14px;
+        text-align: left;
+    }
+    .client_area {
+        width: 94%;
+        padding: 3%;
+        position: unset;
+    }
+    .client_area a {
+        font-size: 14px;
+        text-align: left;
+        margin: 2px 0 0 0;
+    }
+    .client_area h3 strong {
+        font-size: 16px;
+    }
+    .client_area h3 span {
+        font-size: 15px;
+    }
+    .client h3 {
+        padding: 10px 0;
+    }
+    footer {
+        background: #ffffff;
+        padding: 0 0 31px 0;
+    }
+    .footer_container {
+        margin: 0;
+        padding: 0;
+    }
+    .footer_child {
+        padding: 0 1%;
+        margin: 3%;
+        width: 94%;
+        float: none;
+        overflow: hidden;
+    }
+    .footer_child h2 {
+        padding: 10px 0 0 0;
+        margin: 0;
+    }
+    .footer_child p {
+        margin: 5px 0 8px 0;
+    }
+    .footer_child ul {
+        margin: 14px 0 6px 0;
+    }
+    .footer_child h4 {
+        margin: 10px 0;
+    }
+    .footer_child .to_con_p a {
+        text-align: left;
+        margin: 5px 0;
+        font-size: 14px;
+    }
+    .footer_child h2 {
+        padding: 10px 0 0 0;
+        margin: 0;
+    }
+    .footer_child form {
+        margin-top: 10px;
+    }
+    .footer_child input {
+        width: 97%;
+        padding: 3px 5px;
+    }
+    .footer_child textarea {
+        width: 97%;
+        padding: 3px 9px;
+        border-radius: 8px;
+    }
+    .footer_child textarea {
+        width: 99%;
+        padding: 3px 0 0 5px;
+        border-radius: 8px;
+        margin: 3px 0 3px 5px;
+    }
+    .end_footer .end_footer_chid P {
+        font-size: 14px;
+        margin: 0 0 3px 0;
+    }
+    .end_footer .end_footer_chid P span {
+        font-size: 14px;
+    }
+    .end_footer .end_footer_chid {
+        padding: 10px 0;
+    }
+    footer {
+        padding: 0 0 0px 0;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        right: -25px;
+    }
+    .inner_manu ul ul li:hover ul li a {
+        background: #2b2b2b;
+    }
+    .inner_manu ul ul li:hover ul {
+        left: 8px;
+    }
+    .mean-container .mean-nav ul li a:hover {
+        color: red;
+    }
+    .mean-container .mean-nav ul ul li:hover a {
+        background: #333333;
+        color: red;
+    }
+    .inner_manu ul ul:hover ul li a {
+        color: white;
+    }
+    .mean-container .mean-nav ul ul li:hover ul li a {
+        color: white;
+        background: #2b2b2b;
+    }
+}
